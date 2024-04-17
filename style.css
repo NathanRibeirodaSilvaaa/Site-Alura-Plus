@@ -2,11 +2,11 @@
     --branco-principal:#ffffff;
     --cinza-secundrio:#c0c0c0;
     --botao-azul:#167bf7;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #000000;
 
 }
 body {
-    background-color: #00030C;
+    background-color: #000000;
     color:#ffffff
     }
 * {
@@ -18,4 +18,29 @@ body {
     margin: 50;
     padding: 20%;
     
+}
+.principal {
+    background-image: url("./download (1).jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.ramonxcbum {
+    height: 30vh;
+    margin-left: 45em;
+    margin-top: 10em;
+}
+.container {
+    margin-top: 5em;
+    margin-left: 17em;
+    height: 70vh;
+}
+.container-botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    margin-left: 30em;
+    margin-right: 54em;
+    color: var(--branco-principal);
+    display: block;
 }
