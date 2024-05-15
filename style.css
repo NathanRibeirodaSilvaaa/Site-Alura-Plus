@@ -4,6 +4,7 @@
     --botao-azul:#167bf7;
     --cor-de-fundo: #000000;
 
+
 }
 body {
     background-color: #000000;
@@ -26,6 +27,7 @@ body {
     
 }
 .combo {
+    height: 0%;
     
 }
 .container {
@@ -40,4 +42,8 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    margin-left: -100%;
+    display: grid;
+    margin-right: 125%;
 }
+
